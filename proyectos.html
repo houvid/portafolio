@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Proyectos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+      integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+        <div class="section-1 col-md-12">
+          <div class="revealer"></div>
+
+          <nav class="navbar navbar-expand-lg navbar-dark w-100 top-nav">
+            <a class="navbar-brand brand-name" href="index.html">David G</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="sobreMi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="proyectos.html">Proyectos</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li> -->
+
+
+              </ul>
+            </div>
+          </nav>
+        <center>
+          <div style="align-items: center;">
+            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_ly6V4T.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop autoplay ></lottie-player>
+            <h3 class="main-subtitle" style="text-decoration: underline;">Proyectos</h3>
+          </div>
+        </center>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="h-100 left-content" style="padding-top: 10%; ">
+                  <h1 class="main-title">
+                    Somer En Bici <br />
+                  </h1>
+                  <h3 class="main-subtitle">Aplicación de registro de asistencia en bicicleta </h3>
+                  <p class="description">
+                    La aplicación principalmente se encarga de registrar por medio de una vista simple (que está integrada con un lector de códigos  marca Zebra) el cual lee el QR que tienen los colaboradores en su carné y así sólo se tiene que presentar el mismo al frente del lector que siempre está activo para almacenar el registro de su asistencia, cuenta con validaciones de sólo un registro diario y verifica si está registrado en el programa de Empresarial de Somer en bici.
+                  </p>
+                  <p class="description">
+                    Cuenta también con un módulo de administración en el cual el personal de SST puede visualizar la cantidad de asistencias por usuario, activar/inactivar, y genera una alerta dado el caso que algún colaborador no cuente con registros en determinado cantidad de días. <br>
+                    Permite generar reporte con rango de fecha de cantidad de asistencias por colaborador. 
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="h-100 right-content" style="padding-top: 10%;">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="images/Somer en bici.webm" allowfullscreenv autoplay="off" ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <center>
+
+          <div style="align-items: center;">
+            <lottie-player src="https://assets2.lottiefiles.com/temp/lf20_J1XkLr.json"  background="transparent"  speed="0.5"  style="width: 100px; height: 100px;"  loop autoplay ></lottie-player>
+          </div>
+        </center>
+        <div class="section-1 col-md-12">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="h-100 left-content">
+                  <hr>
+                  <h1 class="main-title">
+                    GESTOR SST <br />
+                    
+                  </h1>
+                  <h3 class="main-subtitle">Reporte de parsonal salud con contacto estrecho paciente COVID-19 positivo</h3>
+                  <p class="description">
+                    La aplicación está publicada para todos los usuarios de la clínica para que allí puedan llenar el formulario cada vez que se tenga un contacto estrecho  con un paciente positivo o posible positivo de COVID-19, la aplicación con estos datos recolectados internamente tiene la validación que decide si es un contacto de riesgo alto de contagio o de riesgo bajo; cuando es riesgo alto manda un correo al personal de sst alertando que hubo un colaborador con este contacto Alto para así iniciar su respectivo seguimiento, cosa que también permite la app, hacer seguimientos de cada uno de los contactos reportados cada día (que por ley debe ser así). 
+                  </p>
+                  <p class="description">
+                    Permite generar reportes de contactos en un excel para así poder reportarlos a la entidad de salud departamental. 
+                  </p>
+                  <p class="description">
+                    La aplicación también tiene una sección de registro de síntomas que se debe llenar diariamente, con esto se le hace seguimiento a cada uno de los colaboradores tanto asistencial (que están en la clinica atendiendo pacientes) como Administrativo. 
+                  </p>
+                  <p class="description">
+                    Permite generar reportes de sintomas en un excel para así poder reportarlos a la entidad de salud departamental. 
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="h-100 right-content" style="padding-top: 17%;">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"   src="images/Gestor SST.webm" allowfullscreen  ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="section-1 col-md-12">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="h-100 left-content">
+                  <hr>
+                  <h1 class="main-title">
+                    Sabana de cuidado crítico <br />
+                    
+                  </h1>
+                  <h3 class="main-subtitle">Registro diario de cuidados con pacientes en estado crítico </h3>
+                  <p class="description">
+                    La aplicación permite registrar maestros que podrán ser utilizados en el usu diario de la aplicación, con estos podrán decidir qué registrar a cada uno de los pacientes dependiendo su morbilidad, al registrar permite hacer una previa selección de horas a las que se debe llevar a cabo este registro  por las enfermeras, cuenta con validación de registros a cada una de las horas, cuenta con validación de sólo permitir registrar pon un rango de cuatro horas atrás.
+                    En el registro de líquidos (entradas y salidas) hace un balance del día para así saber cómo va el paciente y hacer sus respectivos cambios de ingresos.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="h-100 right-content" style="padding-top: 17%;">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"   src="images/Sabana de cuidado critico.webm" allowfullscreen  ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>
