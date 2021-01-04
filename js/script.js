@@ -29,7 +29,7 @@ $(document).ready(function() {
       leftContent,
       animationTime,
       { x: '-150%' },
-      { x: '5%', ease: easeOut },
+      { x: '0%', ease: easeOut },
       'end'
     )
     .fromTo(
